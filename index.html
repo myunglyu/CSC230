@@ -1,13 +1,83 @@
-
-<!doctype html>
-<html lang="en-GB">
-  <head>
-    <meta charset="utf-8" />
-    <title>My CSS experiment</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>This is my first CSS example</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 / Myung Lyu</title>
+</head>
+<body>
+    <header>
+        <pre>Assignment 1                         Myung Lyu                    September 6, 2024</pre>
+        <img src=Saint-Martins-logo.svg alt="Saint-Martins-logo">
+        <h1>SAINT MARTIN'S UNIVERSITY</h1>
+        <h2>Washington Vets to Tech Program</h2>
+    </header>
+    <section>
+        <h3>Program highlights</h3>
+        <dl>
+        <dt>Employability</dt>
+            <dd>
+                <ul>
+                    <li>Average graduate starting salary $75k-89k</li>
+                    <li>90% employment within 180 days after graduation</li>
+                    <li>45% of students enrolled in the program earn at least one IT certificate</li>
+                    <li>Earn a certificate in Computer Science that carries college credit, is regionally accredited, and is in demand by employers</li>
+                </ul>
+            </dd>
+            <dt>Choose your pathway</dt>
+            <dd>Server and Cloud Application (SCA), Cloud Application Development (CAD), or Cybersecurity Administration</dd>
+            <dt>Certifications</dt>
+            <dd>The course content in each pathway is designed to help students learn key skills essential for success in the workforce. Additionally, these courses align with IT certification focus areas, including AWS and CompTIA, to prepare students for certification exams. Two certification exam vouchers are included in the lab fees. WaV2T reserves the right to change certification exam vouchers included under the voucher program.</dd>
+            <dt>Vouchers Provided</dt>
+            <dd>
+                <Table border="1px solid black">
+                <tr bgcolor="yellow">
+                    <th>Server and Cloud Application (SCA)</th>
+                    <th>Cloud Application Development (CAD)</th>
+                    <th>Cybersecurity Administration</th>
+                </tr>
+                <tr bgcolor="green">
+                    <td>AWS Certified Cloud Practitioner</td>
+                    <td>AWS Certified Cloud Practitioner</td>
+                    <td>AWS Certified Cloud Practitioner</td>
+                </tr>
+                <tr bgcolor="green">
+                    <td>CompTIA Network+</td>
+                    <td>AWS Certified Developer-Associate</td>
+                    <td>CompTIA Security+</td></tr>
+                <tr bgcolor="green">
+                    <td></td>
+                    <td>CompTIA LINUX+</td>
+                    <td></td>
+                </tr>
+                </Table>
+            </dd>
+        </dl>
+            <p>For detailed information please click <a target="_blank" href="1.03_WaV2T_Learning_Paths.pdf">HERE</a>.</p>
+    </section>
+    <section>
+        <h3>Contact Us!</h3>
+            <Form>
+                <Lable for="FirstName">First Name</Lable>
+                <input type="text" id="FirstName"><br>
+                <Lable for="Lastname">Last Name</Lable>
+                <input type="text" id="LastName"><br>
+                <Lable for="Emailaddress">E-mail </Lable>
+                <input type="text" id="Emailaddress"><br>
+                <br>
+                Interested in<br>
+                <input type="checkbox" id="SCACheckbox" name="SCACheckbox" value="SCA">
+                <label for="SCACheckbox"> Server and Cloud Application (SCA)</label><br>
+                <input type="checkbox" id="CADCheckbox" name="CADCheckbox" value="CAD">
+                <label for="CADCheckbox"> Cloud Application Development (CAD)</label><br>
+                <input type="checkbox" id="CyberSecurityCheckbox" name="CyberSecurityCheckbox" value="Cybersecurity">
+                <label for="CyberSecurityCheckbox"> Cybersecurity Administration</label><br>
+                <br>
+                <input type="submit" value="Submit">
+            </Form>
+    </section>
+    <footer>
+        <a href="https://www.stmartin.edu/"><h4>Go to Home</h4></a>
+    </footer>
+</body>
 </html>
